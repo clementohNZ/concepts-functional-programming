@@ -4,7 +4,17 @@
  * 
  * The main purpose of higher order functions is to abstract away
  * the commonalities within functions. Higher-order functions allow 
- * us to abstract over actions, not just values.
+ * us to abstract actions, not just values.
+ * 
+ * Some typical use cases include:
+ * 1. function factories
+ * 2. consolidate logical checks
+ * 3. manipulate control flow
+ * 
+ * Some benefits include:
+ * 1. cleaner code
+ * 2. more reusable code
+ * 3. has the potential to be much easier to read
  * 
  * https://eloquentjavascript.net/05_higher_order.html
  * 
@@ -16,9 +26,7 @@
 
 /************************************************ 
  * 
- * Function factories,
- * More readable code, and
- * Single point for change
+ * Function factories
  * 
 ************************************************/
 
